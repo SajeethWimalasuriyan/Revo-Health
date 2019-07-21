@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Quicksand Medium'), local('Quicksand-Medium'), url(https://fonts.gstatic.com/s/quicksand/v9/6xKodSZaM9iE8KbpRA_p2HcYT8L_FYzokA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+input[type=text], select, textarea ,input[type=password] {
+    width: 20%;
+    background-color: white;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-style: "Quicksand";
+    color:black;
+    border-radius: 12px;    
+    border-style: solid;
+    border-color: black;
+
+}
+input[type=password]{
+    margin-bottom: 30px;
+}
+a{
+   
+
+    text-decoration: none;
+    background-color: white;
+    color: #173F5F;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-style: "Quicksand"; 
+    color:black;
+    border-radius: 12px;
+    padding-top: 10px;
+    border-style: solid;
+    border-color: black;
+
+}
+.contact {
+    padding-top: 12%;
+    text-align: center;
+    color: white ;
+    font-style: "Quicksand";
+  
+}
+body{
+    overflow: hidden;
+    background-image: url(/images/IntroPic.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "Quicksand";
+}
