@@ -6,7 +6,6 @@
     src: local('Quicksand Medium'), local('Quicksand-Medium'), url(https://fonts.gstatic.com/s/quicksand/v9/6xKodSZaM9iE8KbpRA_p2HcYT8L_FYzokA.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
@@ -17,29 +16,53 @@
 }
 body{
     background-color: black;
+    padding:10px;
+    overflow: hidden;
 }
-
 .container {
-
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 60px auto;
+}
+#nav1{
+    font-size: 40px;
+    text-align: left;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    border-bottom-color: rgb(142, 142, 147);
+    border-bottom-style: solid;
+    font-family: "Quicksand";
+}
+#nav2{
+    padding-top: 5px;
+    padding-right: 5px;
+    font-size: 21.5px;
+    border-bottom-color: rgb(142, 142, 147);
+    border-bottom-style: solid;
+    text-align: right;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    font-family: "Quicksand";
+}
+#nav2 a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 .feed{
-    padding:10px;
     color: white;
     grid-column: 1/1;
-    height: 100%;
+    grid-row: 2/3;
     font-family: "Quicksand";
-    
-
-
+    height: 60%;
 }
 .map{
+    margin-top: 5px;
     border-style: solid;
     border-radius:15px;
     grid-column: 2/3;
-    height: 1000px;
-  
+    grid-row: 2/3;
 }
 li{
     display: inline-block;
@@ -50,15 +73,19 @@ li{
     height: 100px;
     width: 90%;
     padding:10px;
-    background-color: rgb(142, 142, 147)
-
+    background-color: rgb(142, 142, 147) 
 }
 .appointment_list{
-    height: 50%;
     display: inline-block;
-
-
+    height: 60%;
     overflow: scroll;
-
-
+}
+button {
+    font-family: "Quicksand";
+    border: none;
+    color: white;
+    background-color: black;
+    font-size: 21px;
+    cursor: pointer;
+    display: inline-block;
 }
