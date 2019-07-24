@@ -31,8 +31,6 @@ input[type=password]{
     margin-bottom: 30px;
 }
 a{
-   
-
     text-decoration: none;
     background-color: white;
     color: #173F5F;
@@ -45,14 +43,12 @@ a{
     padding-top: 10px;
     border-style: solid;
     border-color: black;
-
 }
 .contact {
     padding-top: 12%;
     text-align: center;
     color: white ;
-    font-style: "Quicksand";
-  
+    font-style: "Quicksand";=
 }
 body{
     overflow: hidden;
@@ -60,4 +56,16 @@ body{
     background-repeat: no-repeat;
     background-color: rgba(0, 0, 0, 1);
     font-family: "Quicksand";
+}
+@media only screen and (max-width: 800px){
+    body {
+        background-position: 50% 10%;
+
+    }
+    .contact{
+        padding-top:30%;
+    }
+    input[type=text], select, textarea ,input[type=password] {
+        width:70%;
+    }
 }
