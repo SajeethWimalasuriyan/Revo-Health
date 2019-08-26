@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Quicksand Medium'), local('Quicksand-Medium'), url(https://fonts.gstatic.com/s/quicksand/v9/6xKodSZaM9iE8KbpRA_p2HcYT8L_FYzokA.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Raleway Medium'), local('Raleway-Medium'), url(https://fonts.gstatic.com/s/raleway/v13/1Ptrg8zYS_SKggPNwN4rWqZPANqczVs.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body{
+    font-family: "Quicksand";
+    overflow: hidden;
+    background-image: url(/images/IntroPic.jpg);
+
+}
+.patient-information{
+    text-align: center;    
+    width:500px;
+    height:400px;
+    margin: 120px auto;
+    min-width: 500px;
+    min-height: 400px;
+    padding: 0 65px 65px 65px;
+    overflow:scroll;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.904);
+}
+    
+button{
+
+    padding: 7px;
+    margin: 5px 0px 5px 0px;
+
+}
+  
+    
+
+input{
+  
+    width :90%;
+    padding: 7px;
+    margin: 5px 0px 5px 0px;
+}
+h1{
+    padding-top:-100px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 700px){
+    .patient-information{
+        width: 90%;
+        height: 100%;
+        margin: 120px auto;
+        padding:0;
+        min-width: 0;
+        min-height: 0;
+    }
+    body {
+        background-position: 50% 10%;
+
+    }
+}
